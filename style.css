@@ -85,6 +85,10 @@ p {
     /* Including menu button to mobile device */
     #myNav {display: block;}
     #menu {display:block;}
+
+    .table .top {
+        display:none;
+    }
     
     html {
         margin:0;
