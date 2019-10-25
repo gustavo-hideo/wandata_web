@@ -2,34 +2,61 @@
 <head>
 <title>Gustavo Hideo</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="style.css" rel="stylesheet" type="text/css" media="only screen and (min-width:801px)">
-<link href="stylemob.css" rel="stylesheet" type="text/css" media="all and (max-width:800px)">
+<link href="style.css" rel="stylesheet" type="text/css"> 
+
 </head>
 
 <body>
 
-    <h1 class="header">Gustavo Hideo</h1>
 
-    <div>
-        <ul class="table top">
-            <li><a class="top" href="./publications.html">Dataviz blog</a></li>
-            <li><a class="top" href="./portfolio.html">Portfolio</a></li>
-            <li><a class="top" href="./resume.html">Resume</a></li>
-            <li><a class="top" href="./aboutme.html">About me</a></li>
-        </ul>
-    </div>
-    <div class="topics">
-        <p class="date">October 27, 2019</p>
-        <p><a class="topics" href="./island_knowledge">Island of Knowledge &amp; DataViz</a></p>
-        
-        <p class="date">November 1, 2019</p>
-        <p><a class="topics" href="./island_knowledge">Life Learning from Saudi Arabia &amp; Religious Freedom</a></p>
-        
-        <p class="date">November 8, 2019</p>
-        <p><a class="topics" href="./island_knowledge">Inutilia Truncat - Clean Design</a></p>
-        
-        <p class="date">November 13, 2019</p>
-        <p><a class="topics" href="./island_knowledge">Showing Complexity</a></p>
-    </div>
+<!-- if mobile-->
+
+
+<!-- The overlay -->
+<div id="myNav" class="overlay">
+
+  <!-- Button to close the overlay navigation -->
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+  <!-- Overlay content -->
+  <div class="overlay-content">
+    <a href="./datavizblog.html">Dataviz blog</a>
+    <a href="./portfolio">Portfolio</a>
+    <a href="./resume">Resume</a>
+    <a href="./aboutme">About me</a>
+  </div>
+
+</div>
+
+<!-- Use any element to open/show the overlay navigation menu -->
+<span id="menu" onclick="openNav()">&#9776;</span>
+
+<h1 class="header">Gustavo Hideo</h1>
+
+<div>
+    <ul class="table top">
+        <li><a class="top" href="./datavizblog.html">Dataviz blog</a></li>
+        <li><a class="top" href="./.html">Portfolio</a></li>
+        <li><a class="top" href="./resume.html">Resume</a></li>
+        <li><a class="top" href="./aboutme.html">About me</a></li>
+    </ul>
+</div>
+<div class="topics">
+    <p class="date">October 27, 2019</p>
+    <p><a class="topics" href="./island_knowledge">Island of Knowledge &amp; DataViz</a></p>
+    
+    <p class="date">November 1, 2019</p>
+    <p><a class="topics" href="./island_knowledge">Life Learning from Saudi Arabia &amp; Religious Freedom</a></p>
+    
+    <p class="date">November 8, 2019</p>
+    <p><a class="topics" href="./island_knowledge">Inutilia Truncat - Clean Design</a></p>
+    
+    <p class="date">November 13, 2019</p>
+    <p><a class="topics" href="./island_knowledge">Showing Complexity</a></p>
+</div>
+
+<!--Calling JavaScript -->
+<script src="jvs.js"></script>
+
 </body>
 </html>
