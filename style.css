@@ -11,7 +11,7 @@ h1 {
     font-weight:normal;
 }
 
-h2 {
+h3 {
     font-weight:normal;
 }
 
@@ -22,6 +22,14 @@ li {
 
 p {
     margin:0;
+    font-size:18px;
+}
+
+.header {
+    font-family: "Maven Pro";
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 0;
 }
 
 .top {
@@ -29,7 +37,7 @@ p {
     font-size:15px;
     display:block;
     text-align:center;
-    padding:14px 32px;
+    padding:30px 32px 30px 32px;
     text-decoration:none;
     color:#212122;
     font-weight: normal;
@@ -67,20 +75,25 @@ p {
     font-weight:bold;
 }
 
-.header {
+.column {
+    float:left;
+    width:42%;
+    padding:30px 35px 30px 35px;
+}
+
+#subt {
     font-family: "Maven Pro";
-    justify-content: center;
-    text-align: center;
-    margin-bottom: 0;
+    font-size:15px;
+    justify-content:center;
+    text-align:center;
+    margin-bottom:0;
+    display:block;
 }
 
 /* Removing menu button from desktop */
-#myNav {
-    display:none;
-}
-#menu {
-    display:none;
-}
+/* #subt {display:none;} */
+#myNav {display:none;}
+#menu {display:none;}
 
 
  /* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
