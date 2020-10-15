@@ -1,6 +1,6 @@
 <!doctype html>
 <head>
-<title>Gustavo Hideo</title>
+<title>wandata</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link href="style.css" rel="stylesheet" type="text/css"> 
 
@@ -9,7 +9,7 @@
 <body>
 
 
-
+<!-- if mobile-->
 <!-- The overlay -->
 <div id="myNav" class="overlay">
 
@@ -18,10 +18,10 @@
 
   <!-- Overlay content -->
   <div class="overlay-content">
-    <a href="./index.html">Dataviz blog</a>
-    <a href="./portfolio">Portfolio</a>
-    <a href="./resume.pdf">Resume</a>
+    <a href="./index.html">Portfolio</a>
+    <a href="./articles">Articles</a>
     <a href="./aboutme">About me</a>
+    <a href="./resume.pdf" target="_blank">Resume</a>
   </div>
 
 </div>
@@ -29,30 +29,70 @@
 <!-- Use any element to open/show the overlay navigation menu -->
 <span id="menu" onclick="openNav()">&#9776;</span>
 
-<h1 class="header">Gustavo Hideo</h1>
-<p id="subt">Dataviz blog</p>
+<h1 class="header">wandata</h1>
+<p id="subt">data to wonder</p>
 
 <div>
     <ul class="table top">
-        <li><a class="top" href="./index.html">Dataviz blog</a></li>
-        <li><a class="top" href="./portfolio.html">Portfolio</a></li>
-        <li><a class="top" href="./resume.pdf">Resume</a></li>
+        <li><a class="top page_c" href="./index.html">Portfolio</a></li>
+        <li><a class="top" href="./articles.html">Articles</a></li>
         <li><a class="top" href="./aboutme.html">About me</a></li>
+        <li><a class="top" href="./resume.pdf" target="_blank">Resume</a></li>
     </ul>
 </div>
-<div class="topics">
-    <p class="date">October 27, 2019</p>
-    <p><a class="topics" href="./01islandofknowledge.html">Island of Knowledge &amp; Dataviz</a></p>
-    
-    <p class="date">November 1, 2019</p>
-    <p><a class="topics" href="./island_knowledge">Life Learning from Saudi Arabia &amp; Religious Freedom</a></p>
-    
-    <p class="date">November 8, 2019</p>
-    <p><a class="topics" href="./island_knowledge">Inutilia Truncat - Clean Design</a></p>
-    
-    <p class="date">November 13, 2019</p>
-    <p><a class="topics" href="./island_knowledge">Showing Complexity</a></p>
+
+
+<div class="column">
+    <p><span style="font-weight:bold">Predicting Handwritten Numbers:</span> Neural Network [Python]</p>
+    <a href="https://www.youtube.com/watch?v=bdWVJ-h4HIQ&feature=youtu.be" target="_blank">
+    <img src="./img/predicting_numbers.jpg" 
+        alt="Handwritten_Numbers"
+        height="300px" width="400px">
+    </a>
 </div>
+<div class="column">
+    <p><span style="font-weight:bold">Refugees in the World:</span> Where they come from and go to? [R Shiny]</p>
+    <a href="https://gustavo-hideo.shinyapps.io/Refugees/" target="_blank">
+    <img src="./img/refugees.jpg" 
+        alt="Refugees"
+        height="300px" width="400px">
+    </a>
+</div>
+<div class="column">
+    <p><span style="font-weight:bold">Petrobras Scandal &amp; Corruption:</span> Car Wash Operation [R]</p>
+    <a href="http://rpubs.com/gustavo_hideo/pbr_scandal" target="_blank">
+    <img src="./img/petrobras.jpg" 
+        alt="Petrobras"
+        height="300px" width="400px">
+    </a>
+</div>
+<div class="column">
+    <p><span style="font-weight:bold">Saudi Arabia:</span> Religious Persecution [R]</p>
+    <a href="http://rpubs.com/gustavo_hideo/saudi_religion" target="_blank">
+    <img src="./img/saudi.jpg" 
+        alt="SaudiArabia"
+        height="300px" width="400px">
+    </a>
+</div>
+<div class="column">
+    <p><span style="font-weight:bold">Chicago Crimes:</span> What are the crimes and where they happen? Were they solved? [R Leaflet]</p>
+    <a href="http://rpubs.com/gustavo_hideo/chicago_crimes2018" target="_blank">
+    <img src="./img/chicagocrimes.jpg" 
+        alt="ChicagoCrimes"
+        height="300px" width="400px">
+    </a>
+</div>
+<div class="column">
+    <p><span style="font-weight:bold">Gun Deaths in America:</span> Gender, Race and Age [R]</p>
+    <a href="http://rpubs.com/gustavo_hideo/533420" target="_blank">
+    <img src="./img/gun.jpg" 
+        alt="GunAmerica"
+        height="300px" width="400px">
+    </a>
+</div>
+
+
+
 
 <!--Calling JavaScript -->
 <script src="jvs.js"></script>

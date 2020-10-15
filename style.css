@@ -2,7 +2,7 @@
 
 
 html {
-    font-family: "PT Sans";
+    font-family: "Maven Pro";/*PT Sans";*/
     margin:30px 200px 30px 200px;
     font-size:20px;
 }
@@ -62,6 +62,17 @@ p {
     text-align: center;
     margin:auto;
     padding:0 0 70px 0;
+}
+
+.page_c {
+    font-weight: bold;
+    color:#CF0101;
+}
+
+.label_c {
+    font-size:13px;
+    margin:0;
+    color:#CF0101;
 }
 
 .date {
