@@ -13,7 +13,7 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 75%;
+    width: 60%;
 }
 
 h1 {
@@ -110,7 +110,7 @@ p {
     margin-bottom: 25px;
 }
 
-div.portf_title {
+.portf_title {
     text-align: center;
     padding: 10px 20px;
   }
